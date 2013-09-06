@@ -41,3 +41,13 @@ end
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+
+# mongodb
+gem 'mongoid'
+gem 'bson_ext'
+# test environment
+group :test do
+  gem 'cucumber-rails'
+  gem 'rspec-rails'
+  gem 'database_cleaner'
+end

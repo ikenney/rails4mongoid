@@ -43,11 +43,11 @@ end
 # gem 'debugger', group: [:development, :test]
 
 # mongodb
-gem 'mongoid'
+gem 'mongoid', github: 'mongoid/mongoid'
 gem 'bson_ext'
 # test environment
 group :test do
-  gem 'cucumber-rails'
+  gem 'cucumber-rails', require: false
   gem 'rspec-rails'
   gem 'database_cleaner'
 end

@@ -1,3 +1,13 @@
+GIT
+  remote: git://github.com/mongoid/mongoid.git
+  revision: 38de2e96edc8f64fbe3cdbe062f1d91e9feb388d
+  specs:
+    mongoid (4.0.0)
+      activemodel (~> 4.0.0)
+      moped (~> 1.5)
+      origin (~> 1.0)
+      tzinfo (~> 0.3.37)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -57,7 +67,6 @@ GEM
       rails (>= 3.0.0)
     database_cleaner (1.1.1)
     diff-lcs (1.2.4)
-    durran-validatable (2.0.1)
     erubis (2.7.0)
     execjs (2.0.1)
     gherkin (2.12.1)
@@ -71,7 +80,6 @@ GEM
       railties (>= 3.0, < 5.0)
       thor (>= 0.14, < 2.0)
     json (1.8.0)
-    leshill-will_paginate (2.3.11)
     libv8 (3.16.14.3)
     mail (2.5.4)
       mime-types (~> 1.16)
@@ -79,17 +87,12 @@ GEM
     mime-types (1.25)
     mini_portile (0.5.1)
     minitest (4.7.5)
-    mongo (1.9.2)
-      bson (~> 1.9.2)
-    mongoid (1.0.6)
-      activesupport (>= 2.2.2)
-      durran-validatable (>= 2.0.1)
-      leshill-will_paginate (>= 2.3.11)
-      mongo (>= 0.18.2)
+    moped (1.5.1)
     multi_json (1.7.9)
     multi_test (0.0.2)
     nokogiri (1.6.0)
       mini_portile (~> 0.5.0)
+    origin (1.1.0)
     polyglot (0.3.3)
     rack (1.5.2)
     rack-test (0.6.2)
@@ -168,7 +171,7 @@ DEPENDENCIES
   database_cleaner
   jbuilder (~> 1.2)
   jquery-rails
-  mongoid
+  mongoid!
   rails (= 4.0.0)
   rspec-rails
   sass-rails (~> 4.0.0)
